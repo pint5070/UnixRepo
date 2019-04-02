@@ -1,3 +1,7 @@
 test
 this is a new update to the readme file.
-its cloudy outside
+<<<<<<< HEAD
+its windy outside
+=======
+its kind of cloudy outside
+>>>>>>> update-readme
