@@ -1,5 +1,17 @@
+CONFLICT:
+
 Auto-merging readme.txt~
 CONFLICT (add/add): Merge conflict in readme.txt~
 Auto-merging readme.txt
 CONFLICT (content): Merge conflict in readme.txt
 Automatic merge failed; fix conflicts and then commit the result.
+
+
+RESOLUTION: 
+
+Michaels-MacBook-Air:UnixRepo michaelpintur$ emacs readme.txt
+##ADDITION of new line to readme to avoid conflict.
+Michaels-MacBook-Air:UnixRepo michaelpintur$ git add -A
+Michaels-MacBook-Air:UnixRepo michaelpintur$ git commit -m "fix"
+
+
